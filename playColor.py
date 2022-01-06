@@ -685,7 +685,6 @@ while running:
                 # 現在出現方塊.
                  brick_id = brick_next_id 
                  brick_next_id = random.randint(1, 7)#編號1~7
-                 
                 
         #-----------------------------------------------------------------
         # 判斷放開按鈕
