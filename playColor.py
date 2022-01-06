@@ -685,18 +685,7 @@ while running:
                 # 現在出現方塊.
                  brick_id = brick_next_id 
                  brick_next_id = random.randint(1, 7)#編號1~7
-                 if n == 1:
-                     bricks_temp =  brick_next_next_id
-                     brick_next_next_id = brick_id 
-                     brick_state = 0 #清空還在跑的方塊
-                 #設定初始位置
-                     container_x = 3
-                     container_y =-4
-                # 現在出現方塊.
-                     brick_id = brick_temp 
-                     brick_next_id = random.randint(1, 7)#編號1~7
-                     n = 0
-                 n=1
+                 
                 
         #-----------------------------------------------------------------
         # 判斷放開按鈕
