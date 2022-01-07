@@ -388,9 +388,9 @@ def updateNextBricks(brickId):
                 bricks_next_next_object[x][y].rect[1] = pos_y
 
                 # ColorVer:依照方塊編號設定顏色.
-                if (bricks_next[x][y]==1):
+                if (bricks_next_next[x][y]==1):
                     bricks_next_next_object[x][y].color = box_color_orange
-                elif (bricks_next[x][y]==2):
+                elif (bricks_next_next[x][y]==2):
                     bricks_next_next_object[x][y].color = box_color_purple
                 elif (bricks_next_next[x][y]==3):
                     bricks_next_next_object[x][y].color = box_color_blue
