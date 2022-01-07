@@ -677,7 +677,6 @@ while running:
             #-------------------------------------------------------------########
             #刪除方塊(儲存的)
             elif event.key == pygame.K_LSHIFT and game_mode == 0:    
-                 brick_temp2=brick_next_id
                  brick_next_id=random.randint(1, 7)
                  brick_next_next_id =  brick_id
                  brick_state = 0 #清空還在跑的方塊
@@ -685,7 +684,7 @@ while running:
                  container_x = 3
                  container_y =-4
                 # 現在出現方塊.
-                 brick_id = brick_temp2
+                 brick_id = brick_next_id
         #-----------------------------------------------------------------
         # 判斷放開按鈕
         if event.type == pygame.KEYUP:
